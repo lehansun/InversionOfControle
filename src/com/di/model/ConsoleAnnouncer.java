@@ -1,9 +1,11 @@
-package com.test.model;
+package com.di.model;
 
-import com.test.infrostructure.ObjectFactory;
+import com.di.infrostructure.annotation.InjectByType;
 
 public class ConsoleAnnouncer implements Announcer {
-    private Recommender recommender = ObjectFactory.getINSTANCE().createObject(Recommender.class);
+
+    @InjectByType
+    private Recommender recommender;
 
     @Override
     public void announce(String message) {

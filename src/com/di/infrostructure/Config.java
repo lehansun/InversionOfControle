@@ -1,4 +1,4 @@
-package com.test.infrostructure;
+package com.di.infrostructure;
 
 import org.reflections.Reflections;
 

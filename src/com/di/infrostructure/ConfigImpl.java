@@ -2,7 +2,7 @@
  * @author Aliaksei Vazdusevich
  */
 
-package com.test.infrostructure;
+package com.di.infrostructure;
 
 import lombok.Getter;
 import org.reflections.Reflections;

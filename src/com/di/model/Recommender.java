@@ -2,7 +2,7 @@
  * @author Aliaksei Vazdusevich
  */
 
-package com.test.model;
+package com.di.model;
 
 public interface Recommender {
     void recommend();

@@ -2,19 +2,20 @@
  * @author Aliaksei Vazdusevich
  */
 
-package com.test.infrostructure.configurator;
+package com.di.infrostructure.configurator;
 
-import com.test.infrostructure.PropertyHandler;
-import com.test.infrostructure.annotation.InjectProperty;
+import com.di.infrostructure.ApplicationContext;
+import com.di.infrostructure.PropertyHandler;
+import com.di.infrostructure.annotation.InjectProperty;
 import lombok.SneakyThrows;
 
 import java.lang.reflect.Field;
 
-public class InjectRecommendationsByAnnotationObjectConfigurator implements ObjectConfigurator {
+public class InjectPropertyAnnotationObjectConfigurator implements ObjectConfigurator {
 
     @Override
     @SneakyThrows
-    public void configure(Object t) {
+    public void configure(Object t, ApplicationContext context) {
         Class<?> implClass = t.getClass();
 
         for (Field field : implClass.getDeclaredFields()) {

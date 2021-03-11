@@ -1,11 +1,14 @@
-package com.test.model;
+package com.di.model;
 
-import com.test.infrostructure.ObjectFactory;
+import com.di.infrostructure.ObjectFactory;
+import com.di.infrostructure.annotation.InjectByType;
 
 public class CoronaDisinfection {
 
-    private Announcer announcer = ObjectFactory.getINSTANCE().createObject(Announcer.class);
-    private Policeman policeman = ObjectFactory.getINSTANCE().createObject(Policeman.class);
+    @InjectByType
+    private Announcer announcer;
+    @InjectByType
+    private Policeman policeman;
 
     public void start(Room room) {
         announcer.announce("Начинаем дезинфекцию. Всем покинуть помещение!");

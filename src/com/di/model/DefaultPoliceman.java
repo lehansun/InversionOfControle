@@ -1,4 +1,4 @@
-package com.test.model;
+package com.di.model;
 
 public class DefaultPoliceman implements Policeman {
     @Override

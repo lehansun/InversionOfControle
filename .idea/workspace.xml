@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.di.infrostructure.configurator" />
+      <recent name="com.di.infrostructure.annotation" />
       <recent name="com.test.infrostructure.annotation" />
       <recent name="com.test.infrostructure.configurator" />
       <recent name="com.test.model" />
-      <recent name="com.test.infrostructure" />
-      <recent name="com.test.factory" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Алексей\GitHub\Test\src\com\test\infrostructure" />
@@ -56,15 +56,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="InversionOfControle" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.di.Main" />
       <module name="InversionOfControle" />
       <method v="2">
         <option name="Make" enabled="true" />
