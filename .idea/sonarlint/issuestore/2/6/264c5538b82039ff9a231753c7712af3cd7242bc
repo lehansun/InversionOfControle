@@ -1,0 +1,20 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(“¦Ş¡ùÿÿÿÿ8–½ †‚/
+j
+java:S1128"HRemove this unused import 'java.lang.reflect.InvocationTargetException'.(è¾†„øÿÿÿÿ8ƒÏ‰‚/
+]	java:S125/"<This block of commented-out lines of code should be removed.(â…ÈÕûÿÿÿÿ8Ó¬‡Š‚/
+O
+java:S11359"2Complete the task associated to this TODO comment.(–ÓÀ8¿Òœ‰‚/
+H
+java:S30116",This accessibility bypass should be removed.(šñZ8¿Òœ‰‚/
+u
+java:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹²û¡ûÿÿÿÿ8 ëã„‚/
+Q
+java:S3740"/Provide the parametrized type for this generic.(“¦Ş¡ùÿÿÿÿ8–½ †‚/
+Y
+java:S1128"<Remove this unused import 'com.test.model.DefaultPoliceman'.(˜†º8ÜÓ¯‰‚/
+\
+java:S1117":Rename "config" which hides the field declared at line 21.(“¦Ş¡ùÿÿÿÿ8–½ †‚/
+I
+java:S30115",This accessibility update should be removed.(˜ÂÓ˜8¿Òœ‰‚/
