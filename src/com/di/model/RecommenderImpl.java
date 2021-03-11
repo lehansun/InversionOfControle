@@ -8,6 +8,7 @@ import com.di.infrostructure.annotation.InjectProperty;
 import com.di.infrostructure.annotation.Singletone;
 
 @Singletone
+@Deprecated
 public class RecommenderImpl implements Recommender {
 
     @InjectProperty("bad.recommendation")

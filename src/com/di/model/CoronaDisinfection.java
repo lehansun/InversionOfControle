@@ -1,8 +1,8 @@
 package com.di.model;
 
-import com.di.infrostructure.ObjectFactory;
 import com.di.infrostructure.annotation.InjectByType;
 
+@Deprecated
 public class CoronaDisinfection {
 
     @InjectByType
